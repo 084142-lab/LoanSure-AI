@@ -272,7 +272,7 @@ Answer the user's question using the assessment above.
                 }
             ],
             temperature=0.3,
-            max_tokens=300
+            max_tokens=1024
         )
 
         answer = response.choices[0].message.content
